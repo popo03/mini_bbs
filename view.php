@@ -36,7 +36,7 @@ $posts->execute(array($_REQUEST['id']));
       <p class="day"><?php print(htmlspecialchars($post['created'])); ?></p>
       </div>
     <?php else: ?>
-	    <p>その投稿は削除されたか、URLが間違えています</p>
+	    <p>その投稿は削除されたか、URLが間違えています。</p>
     <?php endif ?>
   </div>
 </div>
